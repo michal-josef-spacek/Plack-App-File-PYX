@@ -18,6 +18,7 @@ name 'Plack-App-File-PYX';
 perl_version 5.008;
 readme_from 'PYX.pm';
 recursive_author_tests('xt');
+requires 'Encode' => 0;
 requires 'English' => 0;
 requires 'Error::Pure' => 0;
 requires 'HTTP::Date' => 0;
