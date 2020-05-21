@@ -13,7 +13,7 @@ use PYX::SGML::Tags;
 use Tags::Output::Raw;
 use Unicode::UTF8 qw(encode_utf8);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub serve_path {
 	my ($self, $env, $file) = @_;
@@ -404,6 +404,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
